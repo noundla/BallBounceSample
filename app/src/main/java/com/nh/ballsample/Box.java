@@ -9,7 +9,7 @@ import android.graphics.Rect;
  */
 public class Box {
     int xMin, xMax, yMin, yMax;
-    private Rect bounds;
+    private Rect bounds = new Rect();
 
     public void set(int x, int y, int width, int height) {
         xMin = x;
